@@ -1,0 +1,37 @@
+span { 
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 18ch;
+
+    animation: typing 2s steps(18), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    color: white;
+    font-size: 50px;
+    
+}
+
+@keyframes typing { 
+    from { 
+        width: 0;
+    }
+}
+
+@keyframes blink { 
+    50% { 
+        border-color: transparent;
+    }
+}
+
+#title { 
+    display: flex;
+    justify-content: center;
+}
+p { 
+    color: white;
+}
+
+body { 
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2F7%2Fb%2Fb%2F1253937-computer-programming-wallpaper-1920x1080-for-mobile-hd.jpg&f=1&nofb=1');
+}
