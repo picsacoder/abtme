@@ -1,4 +1,11 @@
 {
+  "name": "abtme",
+  "version": "1.0.0",
+  "description": "about pcsa",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.2"
