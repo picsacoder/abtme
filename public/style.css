@@ -3,12 +3,15 @@ span {
     font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 18ch;
+    width: 13ch;
 
-    animation: typing 2s steps(18), blink .5s infinite step-end alternate;
+    animation: typing 2s steps(13), blink .5s infinite step-end alternate;
     overflow: hidden;
     color: white;
+    
     font-size: 50px;
+
+    
     
 }
 
@@ -29,9 +32,46 @@ span {
     justify-content: center;
 }
 p { 
-    color: white;
+    color: whitesmoke;
+    font-size: large;
 }
 
+
 body { 
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2F7%2Fb%2Fb%2F1253937-computer-programming-wallpaper-1920x1080-for-mobile-hd.jpg&f=1&nofb=1');
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+}
+
+
+
+/*responsive desing */
+@media screen and (min-width: 601px) {
+    span {
+      font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    span {
+      font-size: 40px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    span {
+      font-size: 30px;
+    }
+}
+
+i {
+    color: white;
+    font-size: 5ch;
+} 
+li { 
+    color: whitesmoke;
+}
+
+a {
+    color: white;
 }
